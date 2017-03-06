@@ -7,10 +7,25 @@
 <body>
 
 <form>
-     <input type="text" placeholder="Type skill here..." required>
-     <input type="button" class="btn btn-primary" value="Search">
+     <input type="text" ng-model="value2" placeholder="Type skill here..." required >
+     <input type="button" class="btn btn-primary" value="Search" ng-click = "searchForSkills(value2)">
 </form>
 
+<div align="left">
+
+     {{allnames}}
+
+</div>
+<div align="left">
+
+     {{allemails}}
+
+</div>
+<div align="left">
+
+     {{allphones}}
+
+</div>
 
 
 </body>

@@ -37,14 +37,13 @@
                                        ng-model = "password"
                                 >
                             </div>
-
                             <div>
-                            <button class="btn" ng-click = "login()" >Sign in!</button>
+                                <button class="btn" ng-click = "login()" >Sign in!</button>
                             </div>
 
-                        </br>
+                            </br>
 
-                            <button class="btn btn-primary"  style="background-color:#2b669a"  data-toggle="modal" data-target="#myModal"> Create Account</button>
+                            <button class="btn btn-primary"  style="background-color:#2b669a" ng-click="createUser()"> Create Account</button>
 
                         </form>
                     </div>
@@ -52,57 +51,6 @@
             </div>
 
 
-            <div class="row">
-                <div class="col-sm-6 col-sm-offset-3 social-login">
-                    <h3>...or login with:</h3>
-                    <div class="social-login-buttons">
-                        <a class="btn btn-link-1 btn-link-1-facebook" href="#">
-                            <i class="fa fa-facebook"></i> Facebook
-                        </a>
-                        <a class="btn btn-link-1 btn-link-1-twitter" href="#">
-                            <i class="fa fa-twitter"></i> Twitter
-                        </a>
-                        <a class="btn btn-link-1 btn-link-1-google-plus" href="#">
-                            <i class="fa fa-google-plus"></i> Google Plus
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-        <!-- Modal -->
-        <div id="myModal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Enter Details</h4>
-                    </div>
-                    <div class="modal-body">
-
-                        <input type="text" placeholder="Name" class="form-username form-control">
-                        </br>
-
-                        <input type="text" placeholder="Skills" class="form-username form-control">
-                        </br>
-
-                        <button class="btn btn-primary"  > Add Skill</button>
-
-
-
-
-
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal" style="background-color: #c9302c">Close</button>
-                    </div>
-                </div>
-
-            </div>
         </div>
     </div>
 </div>
