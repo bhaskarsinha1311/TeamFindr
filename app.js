@@ -115,7 +115,7 @@ TeamApp.controller('AuthCtrl' ,['$rootScope','$scope', '$window','Auth','$locati
     }]);
 
 
-TeamApp.controller('homeController' ,['$scope', '$route', '$routeParams', '$location' , function($scope , $route, $routeParams, $location) {
+TeamApp.controller('homeController' ,['$scope', '$route', '$routeParams', '$location', 'Auth' , function($scope , $route, $routeParams, $location , Auth) {
 
     $scope.param = $routeParams.id;
 
